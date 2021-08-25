@@ -9,18 +9,7 @@ export class CadastrarComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-    this.validaNome()
-  }
+  ngOnInit(): void {
 
-  validaNome() {
-    let nome = (<HTMLInputElement>document.querySelector('#nome')).value
-    if (nome?.length < 5){
-      alert('nome muito pequeno')
-    }else{
-      alert('nome ok')
-    }
   }
-
 }
-
