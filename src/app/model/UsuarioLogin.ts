@@ -5,4 +5,6 @@ export class UsuarioLogin {
     public usuario: string
     public token: string 
     public foto: string
+    public tipo: string
+
 }
